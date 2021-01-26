@@ -1,8 +1,9 @@
 * {
   font-family: 'Nanum Gothic', sans-serif;
 }
+
 body {
-  padding: 20px
+  padding: 20px;
 }
 
 .container {
@@ -37,7 +38,7 @@ body {
 .graph-container {
   height: 220px;
   width: 250px;
-  background-color: #423D3D;
+  background-color: #423d3d;
 }
 
 .graph {
@@ -58,11 +59,11 @@ body {
 }
 
 .bar {
-  border :1px solid #ffffff;
+  border: 1px solid #fff;
 }
 
-.text-white{
-  color: #ffffff;
+.text-white {
+  color: #fff;
 }
 
 .center {
