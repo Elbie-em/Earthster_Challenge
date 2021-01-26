@@ -1,5 +1,6 @@
 import data from './data/inkjetData';
 import * as doman from './modules/doman';
+import "../src/styles/styles.css"
 
 const setTitle = () => {
   const title = doman.getElement('app-name');

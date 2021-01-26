@@ -4,7 +4,7 @@
 
 - Solution for writing an HTML page that follows the mockup above and uses the following JSON data:
 
-> [Live Demo]()
+> [Live Demo](earthster-challenge-em.netlify.app)
 
 ![Impact Graphs](images/layout_impact_graphs.png)
 
