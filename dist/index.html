@@ -12,20 +12,20 @@
   <body>
     <div class="container">
       <div class="app-container">
-        <h2 class="text-white center">Inkjet Printer</h2>
+        <h2 id="app-name"class="text-white center"></h2>
         <div class="dropdown-div" >
           <select id="impacts" class="dropdown" name="impacts">
-            <option value="">climate_change</option>
-            <option value="">energy_use</option>
+            <option value="climate_change">climate_change</option>
+            <option value="energy_use">energy_use</option>
           </select>
         </div>
         <br>
         <div class="graph-container mx-auto">
           <svg class="graph">
-            <rect x="205" y="0" height="120" width="20" fill="#eb4034"/>
-            <rect x="143" y="0" height="120" width="20" fill="#eb7a34"/>
-            <rect x="80" y="0" height="120" width="20" fill="#ffffff"/>
-            <rect x="23" y="0" height="120" width="20" fill="#34ebe2"/>
+            <rect id="production"x="205" y="0" width="20" fill="#eb4034"/>
+            <rect id="distribution"x="143" y="0" width="20" fill="#eb7a34"/>
+            <rect id="use" x="80" y="0" width="20" fill="#ffffff"/>
+            <rect id="end_of_life" x="23" y="0" width="20" fill="#34ebe2"/>
           </svg>
           <div class="label-div text-white">
             <div class="lbl center">
