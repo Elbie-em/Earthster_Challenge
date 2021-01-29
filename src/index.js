@@ -9,18 +9,10 @@ const setTitle = () => {
 
 const getImpact = () => {
   const selectBox = doman.getElement('impacts');
-  if (selectBox.value === 'climate_change') {
+  const selectBoxValue = selectBox.value;
     const {
       production, distribution, use, end_of_life, // eslint-disable-line camelcase
-    } = data.impacts.climate_change;
-    doman.setData('production', production);
-    doman.setData('distribution', distribution);
-    doman.setData('use', use);
-    doman.setData('end_of_life', end_of_life);
-  } else if (selectBox.value === 'energy_use') {
-    const {
-      production, distribution, use, end_of_life, // eslint-disable-line camelcase
-    } = data.impacts.energy_use;
+    } = data.impacts.selectBoxValue;
     doman.setData('production', production);
     doman.setData('distribution', distribution);
     doman.setData('use', use);
