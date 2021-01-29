@@ -10,14 +10,14 @@ const setTitle = () => {
 const getImpact = () => {
   const selectBox = doman.getElement('impacts');
   const selectBoxValue = selectBox.value;
-    const {
-      production, distribution, use, end_of_life, // eslint-disable-line camelcase
-    } = data.impacts.selectBoxValue;
-    doman.setData('production', production);
-    doman.setData('distribution', distribution);
-    doman.setData('use', use);
-    doman.setData('end_of_life', end_of_life);
-  }
+
+  const {
+    production, distribution, use, end_of_life, // eslint-disable-line camelcase
+  } = data.impacts[selectBoxValue];
+  doman.setData('production', production);
+  doman.setData('distribution', distribution);
+  doman.setData('use', use);
+  doman.setData('end_of_life', end_of_life);
 };
 
 window.onload = () => {
