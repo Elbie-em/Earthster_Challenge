@@ -1,11 +1,13 @@
-# Coding challenge 
+# Coding challenge
 
 ## Impact graphs
 
+- Solution for writing an HTML page that follows the mockup above and uses the following JSON data:
+
+> [Live Demo](earthster-challenge-em.netlify.app)
+
 ![Impact Graphs](images/layout_impact_graphs.png)
 
-- Clone this project 
-- Write a HTML page that follows the mockup above and uses the following JSON data:
 
 ```javascript
 {
@@ -26,15 +28,55 @@
   }
 }
 ```
+## Built with
 
-- By default it should generate a SVG graph based on the data from the first impact (eg. climate_change). 
-- Try to get the bar graph as close as possible to the mockup.
-- The select element should be filled with all available impacts (eg. climate_change and energy_use).
-- The graph will be redraw when the user selects a different option.
-- You may use any framework but we are giving bonus points for Tailwind CSS, Stimulus JS and HTML5 SVG.
-- You may ask any question regarding the challenge. Good communication is paramount.
-- Send us the link to your project, we will use it during an online interview. 
+- HTML5
+- CSS3
+- SVG
+- Vanilla JavaScript
 
-Happy coding!
+## Usage
 
-Earthster Team
+- To start the application follow the Live Demo link.
+
+## Requirements
+
+- Compatible Web browser (Chrome, Mozilla)
+
+## Solution Features
+
+- By default it generates a SVG graph based on the data from the first impact (eg. climate_change).
+- The select element is filled with all available impacts (eg. climate_change and energy_use).
+- The graph is redrawn when the user selects a different option.
+
+## Installation
+
+### Steps
+
+From the command line/terminal clone the repository:
+
+```
+$ git clone https://github.com/Elbie-em/Earthster_Challenge
+```
+## Deploy
+
+cd into *Earthster_Challenge* directory
+
+To deploy on your local environment run:
+
+```
+$ npm run watch
+
+---> Open the index.html in your compatible browser
+```
+## Author
+
+👤 **Elbie Moonga**
+
+- GitHub: [@Elbie-Em](https://github.com/Elbie-em)
+- Twitter: [ElbieEm](https://twitter.com/ElbieEm)
+- LinkedIn: [elbie-moonga](https://www.linkedin.com/in/elbiemoonga/)
+
+## Acknowledgments
+
+- Earthster

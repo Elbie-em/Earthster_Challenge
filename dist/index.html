@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>impactgraphs.app</title>
+    <script defer src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="app-container">
+        <h2 id="app-name"class="text-white center"></h2>
+        <div class="dropdown-div" >
+          <select id="impacts" class="dropdown" name="impacts">
+            <option value="climate_change">climate_change</option>
+            <option value="energy_use">energy_use</option>
+          </select>
+        </div>
+        <br>
+        <div class="graph-container mx-auto">
+          <svg class="graph">
+            <rect id="production"x="205" y="0" width="20" fill="#eb4034"/>
+            <rect id="distribution"x="143" y="0" width="20" fill="#eb7a34"/>
+            <rect id="use" x="80" y="0" width="20" fill="#ffffff"/>
+            <rect id="end_of_life" x="23" y="0" width="20" fill="#34ebe2"/>
+          </svg>
+          <div class="label-div text-white">
+            <div class="lbl center">
+              <h2>P</h2>
+            </div>
+            <div class="lbl center">
+              <h2>D</h2>
+            </div>
+            <div class="lbl center">
+              <h2>U</h2>
+            </div>
+            <div class="lbl center">
+              <h2>E</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
